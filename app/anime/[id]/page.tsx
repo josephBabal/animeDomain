@@ -24,8 +24,6 @@ export async function generateMetadata({
 
   // fetch data
   const component_item: AnimePropFull = await fetchAnimeFullById(id)
-  // const component_item = await fetch(url).then((res) => res.json());
-  console.log(component_item);
 
   return {
     title: component_item?.title_english || component_item?.title || "",
