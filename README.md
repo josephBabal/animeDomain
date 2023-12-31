@@ -14,7 +14,7 @@
 This project allows users to explore information about various animes. 
 </h4>
 
-<h2 align="center"> This project is deployed <a href="https://animedomain-seven.vercel.app/" title="Anime Domain"> here </a> </h2>
+<h2 align="center"> This project is deployed <a href="https://anime-domain.vercel.app/" title="Anime Domain"> here </a> </h2>
 
 <h1> GETTING STARTED </h1>
 
