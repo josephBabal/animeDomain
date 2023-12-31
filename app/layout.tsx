@@ -11,8 +11,8 @@ import Hero from "@/components/Hero";
 
 export const metadata: Metadata = {
   title: {
-    default: "Anime Archieve",
-    template: '%s | Anime Archieve'
+    default: "Anime Domain",
+    template: '%s | Anime Domain'
   },
   description: "Your favorite anime, all in one place.",
   keywords: ['Next.js', 'React', 'JavaScript', 'TypeScript']
