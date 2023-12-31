@@ -13,28 +13,6 @@ body {
   gap: 1.5rem;
 }
 
-/* *test */
-.bgImage {
-  background-image: url('https://images7.alphacoders.com/105/thumb-1920-1054068.png');
-  position: relative;
-  
-  overflow: hidden;
-  width: 60ch;
-
-}
-
-
-/* *test */
-.bgImage::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: inset 20px 0 30px -20px black, inset -20px 0 30px -20px black;
-  z-index: 1;
-}
 
 .mainGradient {
   /*  
@@ -42,10 +20,10 @@ body {
   * -webkit-background-clip: text and background-clip: text allow the background to be clipped to the text.
    *color: transparent makes the text color transparent, allowing the gradient background to show through.
  */
- background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, rgb(125, 26, 255) 100%);
- background: linear-gradient(90deg, rgb(66, 202, 255) 0%, rgb(125, 26, 255) 100%);
+  background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, rgb(125, 26, 255) 100%);
+  background: linear-gradient(90deg, rgb(66, 202, 255) 0%, rgb(125, 26, 255) 100%);
 
- -webkit-background-clip: text;
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
@@ -73,10 +51,11 @@ body {
 
 
 .navbar {
-  position: absolute;
+  position: fixed;
+  top: 0;
   width: 100%;
   padding-block: 10px;
-  background-color: rgba(0, 0, 0, 0.3); 
+  background-color: rgba(20, 20, 20, 0.5); 
   backdrop-filter: blur(10px);
   z-index: 1000;
 }

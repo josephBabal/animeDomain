@@ -28,7 +28,7 @@ const SearchEngine: React.FC<SearchEngineProps> = ({
   isFocused,
   clearSearch
 }) => {
-  console.log("-- clear", inputRef, isFocused)
+  
   return (
     <>
       <input 
@@ -44,10 +44,11 @@ const SearchEngine: React.FC<SearchEngineProps> = ({
           outline-none 
           rounded-lg
           border-2 
-          placeholder:text-zinc-400
-          bg-zinc-950 
+          placeholder:text-zinc-100
+          bg-zinc-900 
           border-zinc-700 
           focus:bg-zinc-700
+          focus:placeholder:text-transparent
           focus:rounded-t-lg
           focus:rounded-b-none
           focus:border-b-[1px]

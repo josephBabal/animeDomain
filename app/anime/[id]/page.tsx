@@ -58,7 +58,8 @@ const page = async ({ params }: { params: { id: string } }) => {
         ))}        
       </div>
 
-      <div className="bg-[#14161C] rounded-lg p-5 ">
+      {/* <div className="bg-[#14161C] rounded-lg p-5 "> */}
+      <div className="bg-zinc-800 rounded-lg p-5">
         <div className="flex flex-wrap gap-5 mb-5">
           {anime?.images && <AnimeImage anime={anime} />}
           <AnimeDetails anime={anime} noData={noData} />

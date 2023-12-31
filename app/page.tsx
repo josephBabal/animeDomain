@@ -5,12 +5,13 @@ import { fetchAnime } from './action';
 import SearchContainer from '@/components/SearchContainer';
 import Hero from '@/components/Hero';
 
+
 export default async function Home() {
   const data = await fetchAnime(1)
   return (
     <div>
       <Hero />
-      <div className=" 
+      <div className="
         max-w-7xl 
         mt-10
         mx-auto
@@ -36,7 +37,7 @@ export default async function Home() {
         </section>
           <Loader />
         {/* </main> */}
-      </div>
+      </div>    
     </div>
   )
 }

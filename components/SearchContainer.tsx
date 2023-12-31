@@ -41,7 +41,6 @@ const SearchContainer = () => {
     setLoading(true);
     getAnimeSearch(debouncedSearch)
       .then((results: AnimeProp[]) => {
-        console.log('--results: ', results);
         setSearchResults(results);
       })
       .catch((error) => {
@@ -69,7 +68,6 @@ const SearchContainer = () => {
     setIsFocused(false);
   });
 
-  console.log(isFocused)
 
   return (
     <div className="relative flex flex-col items-center">
