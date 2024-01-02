@@ -4,14 +4,14 @@ import Loader from "../components/Loader";
 import { fetchAnime } from './action';
 import SearchContainer from '@/components/SearchContainer';
 import Hero from '@/components/Hero';
-import HeroTest from '@/components/HeroSlide';
+import HeroSlide from '@/components/HeroSlide';
 
 
 export default async function Home() {
   const data = await fetchAnime(1)
   return (
     <div>
-      <HeroTest />
+      <HeroSlide />
       <div className="
         max-w-7xl 
         mt-10
