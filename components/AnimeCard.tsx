@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { MotionDiv } from "./MotionDiv";
 export const SHIKIMORI_URL = "https://shikimori.one";
 import Link from "next/link";

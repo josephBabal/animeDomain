@@ -38,33 +38,26 @@ const SearchEngine: React.FC<SearchEngineProps> = ({
         className="
           relative
           w-full md:w-[60%]
-          ps-12
-          pe-2
-          py-2 
+          ps-12 pe-2 py-2 
           outline-none 
           rounded-lg
           border-2 
           placeholder:text-zinc-100
           bg-zinc-900 
           border-zinc-700 
-          focus:bg-zinc-700
-          focus:placeholder:text-transparent
-          focus:rounded-t-lg
-          focus:rounded-b-none
-          focus:border-b-[1px]
-          focus:border-b-zinc-400
+          focus:bg-zinc-700 focus:placeholder:text-transparent focus:rounded-t-lg
+          focus:rounded-b-none focus:border-b-[1px] focus:border-b-zinc-400
           hover:bg-zinc-700
         "
         value={query}
         ref={inputRef}
-        onFocus={handleFocus} //* focus
+        onFocus={handleFocus}
       />
       <IoSearchOutline 
         className=" 
           absolute 
           text-zinc-400 
-          top-[13px]
-          left-[15px]
+          top-[13px] left-[15px]
           md:left-[22%] 
           text-lg
         " 
